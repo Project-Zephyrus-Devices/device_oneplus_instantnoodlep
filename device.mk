@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oneplus_kona
+    vendor.lineage.powershare@1.0-service.oplus
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
