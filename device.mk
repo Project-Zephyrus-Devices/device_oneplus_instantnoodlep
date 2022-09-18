@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2376
+TARGET_SCREEN_WIDTH := 1080
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oplus

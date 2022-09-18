@@ -23,7 +23,7 @@ DEVICE_PATH := device/oneplus/instantnoodlep
 TARGET_OTA_ASSERT_DEVICE := OnePlus8Pro,instantnoodlep
 
 # Display
-TARGET_SCREEN_DENSITY := 600
+TARGET_SCREEN_DENSITY := 450
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -33,6 +33,7 @@ BOARD_SUPER_PARTITION_SIZE := 15032385536
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # inherit from the proprietary version
 -include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
